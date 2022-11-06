@@ -580,7 +580,7 @@ span {
     padding: 0;
   }
   header .header-right {
-    padding: 2rem !important;
+    padding: 1rem !important;
   }
   .header-content {
     grid-template-columns: 1fr;
