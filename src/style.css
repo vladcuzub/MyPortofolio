@@ -37,7 +37,7 @@ a {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--color-white);
   overflow: hidden;
 }
@@ -573,4 +573,51 @@ span {
 
 .icons:hover {
   background-color: var(--color-mandarin-2);
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+  header .header-right {
+    padding: 2rem !important;
+  }
+  .header-content {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .header-left .h-shape {
+    display: none;
+  }
+  .header-right {
+    grid-row: 1;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header-right .name {
+    font-size: 2rem;
+  }
+  .header-content .header-left .image {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .controls {
+    top: auto;
+    bottom: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 100%;
+    background-color: var(--color-grey-3);
+  }
+  .controls .control {
+    margin: 1rem 0.3rem;
+  }
 }

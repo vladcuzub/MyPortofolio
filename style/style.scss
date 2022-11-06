@@ -1,3 +1,4 @@
+
 * {
       margin: 0;
       padding: 0;
@@ -31,7 +32,7 @@ a {
       font-family: inherit;
 }
 header {
-      height: 100vh;
+      min-height: 100vh;
       color: var(--color-white);
       overflow: hidden;
 }
@@ -445,3 +446,5 @@ span{
 .icons:hover{
       background-color: var(--color-mandarin-2);
 }
+
+@import './media';
