@@ -489,9 +489,9 @@ span{
 //Contact 
 .contact-container{
       display: flex;
-      padding-top: 3.5rem;
+      padding-top: 2.5rem;
       .left-contact{
-         flex: 2;
+            flex: 1;
          h4{
             margin-top: 1rem;
             font-size: 2rem;
@@ -548,7 +548,6 @@ span{
       button:hover{
             background-color: var(--color-mandarin-2);
             border: 2px solid var(--color-secondary);
-            font-size: 1.8rem;
             transition: all .4s ease-in-out;
       }
 }
