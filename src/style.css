@@ -670,6 +670,12 @@ span {
         -ms-flex-align: center;
             align-items: center;
   }
+  .hover-items h4 {
+    font-size: 1rem;
+  }
+  .hover-items p {
+    font-size: 0.6rem;
+  }
   .section {
     padding: 2rem 2.5rem !important;
   }
