@@ -14,6 +14,7 @@
   --color-sun:#E9C46A;
   --color-orange-1:#F4A261;
   --color-mandarin-2:#E76F51;
+  --color-black-trans:#01060552;
   --color-grey-3:rgba(246, 246, 246, 0.064);
   --color-grey-4:rgb(84, 84, 84);
   --color-grey-5:rgb(182, 182, 182);
@@ -389,7 +390,7 @@ span {
 .abt-text .large-text {
   font-size: 3rem;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: var(--color-mandarin-2);
 }
 .abt-text .small-text {
   padding-left: 5rem;
@@ -576,6 +577,7 @@ span {
 }
 
 @media screen and (max-width: 600px) {
+  /* Header Content*/
   header {
     padding: 0;
   }
@@ -612,11 +614,49 @@ span {
     padding-right: 0;
   }
   .about-container .left-about p {
-    padding-left: 1.5rem;
+    padding-left: 0.5rem;
+  }
+  .about-container .left-about h4 {
+    font-size: 1.5rem;
+  }
+  .main-title h2 {
+    font-size: 2.5rem;
+  }
+  .main-title .bg-text {
+    font-size: 4rem;
+  }
+  .abt-text {
+    padding: 0.5rem;
+  }
+  .abt-text .large-text {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 1rem;
+  }
+  .abt-text .small-text {
+    font-size: 1rem;
+    margin: 1rem;
+    color: var(--color-white);
+    padding-left: 2rem;
+  }
+  .skill-icon {
+    margin: 0;
+    padding-bottom: 2.5rem;
+    padding-top: 1rem;
+  }
+  .timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .section {
     padding: 2rem 2.5rem !important;
   }
+  /*Controls */
   .controls {
     top: auto;
     bottom: 0;
@@ -631,7 +671,7 @@ span {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     width: 100%;
-    background-color: var(--color-grey-3);
+    background-color: var(--color-black-trans);
   }
   .controls .control {
     margin: 1rem 0.3rem;
