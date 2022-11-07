@@ -670,6 +670,11 @@ span {
         -ms-flex-align: center;
             align-items: center;
   }
+  .hover-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .hover-items h4 {
     font-size: 1rem;
   }
