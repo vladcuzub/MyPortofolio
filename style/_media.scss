@@ -75,13 +75,17 @@
             padding-bottom: 2.5rem;
             padding-top: 1rem;
       }
-
+      /*Timeline */
       .timeline{
             display: flex;
             flex-direction: column;
 
       }
-
+/*MyProjects*/
+.portofolios{
+            display: flex;
+            flex-direction: column;
+}
       .section{
             padding: 2rem 2.5rem !important ;
       }

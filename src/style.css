@@ -644,7 +644,18 @@ span {
     padding-bottom: 2.5rem;
     padding-top: 1rem;
   }
+  /*Timeline */
   .timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /*MyProjects*/
+  .portofolios {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
