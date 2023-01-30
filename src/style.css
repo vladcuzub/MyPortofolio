@@ -7,7 +7,7 @@
 }
 
 :root {
-  --color-primary:#264653;
+  --color-primary:#03080a;
   --color-secondary:#2A9D8F;
   --color-white:rgb(247, 246, 238);
   --color-black:rgb(19, 20, 19);
@@ -246,6 +246,10 @@ i {
 
 .name {
   font-size: 3rem;
+  -webkit-animation: backInRight;
+          animation: backInRight;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
 }
 
 span {
@@ -292,6 +296,10 @@ img {
   border-radius: 20px 20px;
   -webkit-box-shadow: var(--box-shadow-1);
           box-shadow: var(--box-shadow-1);
+  -webkit-animation: backInLeft;
+          animation: backInLeft;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
 }
 
 /*component */
@@ -369,6 +377,10 @@ h2 {
   text-transform: uppercase;
   font-size: 4rem;
   font-weight: 700;
+  -webkit-animation: backInRight;
+          animation: backInRight;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
 }
 
 span {
