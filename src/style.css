@@ -546,7 +546,7 @@ span {
 }
 
 .port-text {
-  padding: 3rem 0;
+  padding: 5rem 0;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -602,23 +602,13 @@ span {
 }
 
 .project-description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  margin: 10px;
+}
+.project-description p {
+  font-size: 15px;
 }
 
 .icons {
-  background-color: var(--color-grey-5);
   color: var(--color-black);
   width: 50px;
   height: 50px;
@@ -816,10 +806,10 @@ span {
     display: flex;
   }
   .hover-items h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .hover-items p {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .contact-container-con {
     -webkit-box-orient: vertical;

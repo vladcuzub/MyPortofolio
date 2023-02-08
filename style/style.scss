@@ -432,7 +432,7 @@ span{
 
 //Portofolio section
 .port-text{
-      padding: 3rem 0 ;
+      padding: 5rem 0 ;
       text-align: center;
       font-size: 1.5rem;
 }
@@ -465,6 +465,8 @@ span{
                   opacity: 0;
                   transform: scale(0);
                   transition: all .4s ease-in-out;
+                
+                 
             }
       }
 }
@@ -473,14 +475,17 @@ span{
       transform: scale(1);
 }
 .project-description {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+     
+      margin: 10px;
+      p{
+            font-size: 15px;
+         
+      }
+     
 }
 
 .icons{
-      background-color: var(--color-grey-5);
+      
       color: var(--color-black);
       width: 50px;
       height: 50px;
