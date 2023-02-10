@@ -402,8 +402,8 @@ span {
 }
 
 .about-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+   grid-template-columns: repeat(2, 1fr);*/
   padding-top: 3.5rem;
   padding-bottom: 5rem;
 }
@@ -429,7 +429,7 @@ span {
           box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.62);
 }
 .about-container .left-about {
-  padding-right: 5rem;
+  padding-right: 2rem;
 }
 .about-container .left-about p {
   line-height: 2rem;

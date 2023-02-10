@@ -298,8 +298,8 @@ span{
       font-size: 6rem;
 }
 .about-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+     /* display: grid;
+      grid-template-columns: repeat(2, 1fr);*/
       padding-top: 3.5rem;
       padding-bottom: 5rem;
       .right-about{
@@ -322,7 +322,7 @@ span{
             }
       }
       .left-about{
-            padding-right: 5rem;
+            padding-right: 2rem;
             p{
                 line-height: 2rem;  
             }
