@@ -553,9 +553,9 @@ span {
 
 .portofolios {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin-top: 1rem;
 }
 .portofolios .portofolio-items {
   position: relative;
